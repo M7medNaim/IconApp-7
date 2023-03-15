@@ -1,0 +1,394 @@
+/* google fonts (Tajawal) */
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+/* global style css */
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+.text-orange-1 {
+    color: #FF6600 !important;
+}
+
+.text-orange-2 {
+    color: #F5A642 !important;
+}
+
+/* -- global style css -- */
+
+/* Start main section */
+
+main {
+    min-height: 70vh !important;
+    width: 100%;
+    background: linear-gradient(268.38deg, #000 -10.31%, #141414 129.7%);
+    ;
+}
+
+main .container img {
+    float: left;
+    width: 70px !important;
+    height: 90px !important;
+    margin-top: 20px !important;
+}
+
+main .container .row .img {
+    margin-top: 30px !important;
+}
+
+main .container .row .img img {
+    height: 500px !important;
+}
+
+main .container .row .col-sm-12 .btn {
+    background-color: #000;
+    width: fit-content !important;
+    border: 2px solid #fff;
+    position: relative !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+main .container .row .col-sm-12 .btn:hover {
+    border: 2px solid #f27d08;
+}
+
+main .container .row .col-sm-12 .btn:hover i {
+    color: #f27d08;
+}
+
+main .container .row .col-sm-12 .btn .appStore p {
+    font-size: 6px;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 6px;
+    right: 15px;
+}
+
+main .container .row .col-sm-12 .btn .appStore h6 {
+    font-size: 18px !important;
+    margin: 9px 0 0 0 !important;
+    font-weight: 500;
+
+}
+
+/* media query main */
+@media (max-width:992px) {
+    main .container .row .col-sm-12 h1 {
+        margin-top: 55px !important;
+        font-size: 40px !important;
+    }
+
+    main {
+        padding-bottom: 10px !important;
+    }
+    /*section.groups  */
+    section.groups .container p {
+        width: 100% !important;
+    }
+}
+
+@media (max-width:400px) {
+    main .container .row .col-sm-12 h1 {
+        font-size: 35px !important;
+    }
+
+    main .container .row .img img {
+        height: 300px !important;
+    }
+}
+
+/* End main section */
+/* section interesting */
+section.interesting {
+    padding-top: 15px;
+    padding-bottom: 10px !important;
+
+}
+
+section.interesting .btn {
+    padding: 5px 80px !important;
+    background: linear-gradient(268.38deg, #FF6600 -10.31%, rgba(255, 102, 0, 0.54) 129.7%);
+    border-radius: 40px;
+    color: white;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+section.interesting .btn:hover {
+    color: #000;
+    background: linear-gradient(268.38deg, #ff66008a -10.31%, #FF6600 129.7%);
+}
+
+section.interesting h2 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+section.interesting .row .img img {
+    height: 400px !important;
+    margin-right: 20px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-top: 30px !important;
+}
+
+/* media query  */
+@media screen and (max-width:380px) {
+    section.interesting .btn {
+        padding: 5px 20px !important;
+    }
+}
+
+/* -- section interesting -- */
+/* section groups */
+section.groups {
+    background-color: #FAFAFA;
+    padding-bottom: 20px !important;
+}
+
+section.groups .container p {
+    font-size: 20px !important;
+    font-weight: 500;
+    width: 70%;
+}
+
+section.groups .container .btn {
+    width: fit-content !important;
+    padding: 5px 80px !important;
+    background: linear-gradient(268.38deg, #FF6600 -10.31%, rgba(255, 102, 0, 0.54) 129.7%);
+    border-radius: 40px;
+    color: white;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+section.groups .container .btn:hover {
+    color: #000;
+    background: linear-gradient(268.38deg, #ff66008a -10.31%, #FF6600 129.7%);
+}
+
+section.groups .container h1 {
+    font-size: 38px !important;
+    font-weight: 700;
+}
+
+section.groups .boxs .box {
+    background-color: #fff !important;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+    font-size: 14px !important;
+}
+
+/* media query */
+@media (max-width:350px) {
+    section.groups .container .btn {
+        padding: 3px 10px !important;
+    }
+
+    section.groups .container p {
+        font-size: 14px !important;
+        font-weight: 500;
+        width: 70%;
+    }
+
+    section.groups .container h1 {
+        font-size: 30px !important;
+        font-weight: 700;
+    }
+
+    section.interesting h2 {
+        font-size: 30px !important;
+    }
+
+    section.download h1 {
+        font-size: 28px !important;
+    }
+}
+
+@media (min-width:350px) and (max-width:756px) {
+    section.groups .container p {
+        font-size: 18px !important;
+        font-weight: 500;
+        width: 70%;
+    }
+
+    section.groups .container h1 {
+        font-size: 35px !important;
+        font-weight: 700;
+    }
+
+    section.interesting h2 {
+        font-size: 35px !important;
+    }
+
+    section.download h1 {
+        font-size: 38px !important;
+    }
+
+}
+
+/* End section groups */
+
+
+/* section download */
+
+
+section.download h1 {
+    font-size: 44px !important;
+    font-weight: 700;
+    width: 90%;
+}
+
+section.download .container {
+    background-color: #d58a199a;
+    margin-top: 40px !important;
+    text-align: center;
+}
+
+section.download .container .btn {
+    background-color: #000 !important;
+    width: fit-content !important;
+    border: 2px solid #fff;
+    position: relative !important;
+    margin: 40px auto !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+section.download .container .btn:hover {
+    border: 2px solid #66f208;
+}
+
+section.download .container .btn:hover i {
+    color: #66f208;
+}
+
+section.download .container .appStore p {
+    font-size: 12px !important;
+    margin: 0 !important;
+    position: absolute !important;
+    top: 6px;
+    right: 15px;
+}
+
+section.download .container .btn .appStore h6 {
+    font-size: 22px !important;
+    margin: 9px 0 0 0 !important;
+    font-weight: 500;
+}
+
+/* media query */
+@media (max-width:350px) {
+    section.download h1 {
+        font-size: 30px !important;
+    }
+}
+
+@media (min-width:350px) and (max-width:756px) {
+    section.download h1 {
+        font-size: 38px !important;
+    }
+
+}
+
+/* End section download */
+
+
+/* footer */
+footer img {
+    width: 30px !important;
+    height: 40px !important;
+}
+
+footer label {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer p {
+    color: #6A6A6A;
+}
+
+footer a {
+    color: #8C8C8C;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+footer .inform li a:hover {
+    color: #FF6600;
+}
+/* End Footer */
+
+/* team Page */
+section.team,
+section.team .card {
+    overflow: hidden !important;
+}
+
+section.team .container .content {
+    background-color: #ff910087;
+}
+
+section.team img {
+    height: 115px !important;
+    width: 120px !important;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+section.team .container h4 {
+    width: fit-content !important;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    color: #525050;
+}
+
+section.team .container h4:hover {
+    color: #FF6600;
+}
+
+section.team label {
+    height: 5px !important;
+    background-color: #12b7e4 !important;
+    width: 80% !important;
+}
+footer.team a:hover {
+    color: #FF6600;
+}
+
+/* -- whoUs Page --  */
